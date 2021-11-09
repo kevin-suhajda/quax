@@ -1,26 +1,22 @@
-## Welcome to GitHub Pages
+## Codemagic React Native Step-by-step for iOS
 
-You can use the [editor on GitHub](https://github.com/nevercode-kevin/quax/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The following guide will show you how to set up your Codemagic workflow to build and publish your application to TestFlight.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Prerequisites
 
-### Markdown
+- Access to the macOS machine where you created your iOS distribution certificate.
+- An Apple Developer Program account.
+- The Apple Developer Program account holder should enable usage of the Apple API in App Store Connect.
+- Admin level access to your Apple Developer Program account to create API keys.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
 
 ```yaml
-name: Export ulf
-script: |
-  echo $ULF >> ulffile.ufl
 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nevercode-kevin/quax/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble getting things working? Check out our [documentation](https://docs.codemagic.io/) or join the [Slack community](https://slack.codemagic.io/) and we’ll help you sort it out.
